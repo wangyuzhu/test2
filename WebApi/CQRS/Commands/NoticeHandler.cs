@@ -18,7 +18,7 @@ namespace WebApi.Commands
         public Noty1Handler(ILogger<Noty1Handler> logger)
         {
             _logger = logger;
-            _logger.LogError("Noty1Handler Doing...");
+            _logger.LogError("Noty1Handler Doing...11111111111");
         }
 
         public Task Handle(NotyPing notification, CancellationToken cancellationToken)
